@@ -1,5 +1,10 @@
-module.exports = {
-    env: {
-        OPENAI_API_KEY: process.env.OPENAI_API_KEY,
-    }
-} 
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
+  assetPrefix: '.',
+}
+
+module.exports = nextConfig 
