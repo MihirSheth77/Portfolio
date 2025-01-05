@@ -72,7 +72,7 @@ export class Gedit extends Component {
                     )
                 }
             </div>
-        )
+        )//
     }
 }
 
