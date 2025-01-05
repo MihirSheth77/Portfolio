@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     unoptimized: true,
+    domains: ['vercel.com']
   },
-  assetPrefix: '.',
 }
 
 module.exports = nextConfig 
